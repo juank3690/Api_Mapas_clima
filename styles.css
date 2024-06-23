@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Comic Neue", cursive;;
+    background-image: url("");
+    color: white;
+    
+}
+
+
+
+
+
+#location-input, #map{
+    border-radius: 5px;
+}
+
+
+.container {
+    
+    text-align: center;
+    min-width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(60, 53, 53);
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+#weather-info {
+    margin-top: 20px;
+}
